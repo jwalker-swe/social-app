@@ -1,5 +1,6 @@
 import PostImport from '@/components/PostImport'
 import React from 'react'
+import Post from '@/components/Post'
 
 export default function PostFeed() {
   return (
@@ -8,6 +9,7 @@ export default function PostFeed() {
             Home
         </div>
         <PostImport />
+        <Post />
     </div>
   )
 }
