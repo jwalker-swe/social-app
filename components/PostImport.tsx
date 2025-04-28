@@ -10,11 +10,11 @@ export default function PostImport() {
             <textarea className='resize-none outline-none w-full min-h-[50px] text-lg border-b-2 border-opacity-10' placeholder='Enter Message...'/>
             <div className='flex justify-between items-center'>
                 <div className='flex space-x-1.5'>
-                    <PhotoIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50'/>
-                    <ChartBarIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50'/>
-                    <FaceSmileIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50'/>
-                    <CalendarIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50'/>
-                    <MapPinIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50'/>
+                    <PhotoIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50 transition'/>
+                    <ChartBarIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50 transition'/>
+                    <FaceSmileIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50 transition'/>
+                    <CalendarIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50 transition'/>
+                    <MapPinIcon className='w-[22px] h-[22px] text-[#f4af01] cursor-pointer hover:opacity-50 transition'/>
                 </div>
                 <button className='bg-[#f4af01] text-white w-[80px] h-[36px] rounded-full text-sm cursor-pointer'>
                     Button
