@@ -12,11 +12,11 @@ export default function Post() {
       <div className='flex ml-16 p-3 space-x-14'>
         <div className='relative'>
           <ChatBubbleOvalLeftEllipsisIcon className='w-[22px] h-[22px] cursor-pointer hover:text-[#f4af01] hover:opacity-50 transition' />
-          <span className='absolute text-xs top-1 right-0 -right-3'>2</span>
+          <span className='absolute text-xs top-1 right-0 -right-4'>2</span>
         </div>
         <div className='relative'>
           <HeartIcon className='w-[22px] h-[22px] cursor-pointer hover:text-[#f4af01] hover:opacity-50 transition' />
-          <span className='absolute text-xs top-1 right-0 -right-3'>2</span>
+          <span className='absolute text-xs top-1 right-0 -right-4'>2</span>
         </div>
         <div className='relative'>
           <ChartBarIcon className='w-[22px] h-[22px] hover:cursor-not-allowed' />

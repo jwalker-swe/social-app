@@ -63,12 +63,15 @@ export default function Widgets() {
 
       </div>
 
-      <div className='bg-[#eff3f4] rounded-xl p-3'>
+      <div className='bg-[#eff3f4] rounded-xl p-3 w-full'>
 
         <h2 className='text-l font-bold mb-2'>
           Who To Follow
         </h2>
 
+        <WhoToFollowUser />
+        <WhoToFollowUser />
+        <WhoToFollowUser />
         <WhoToFollowUser />
 
       </div>
@@ -80,17 +83,20 @@ export default function Widgets() {
 
 export function WhoToFollowUser() {
   return (
-    <div className='flex space-x-3'>
+    <div className='flex space-x-3 my-3 items-center'>
       <Image src={'/assets/images/profile-pic.svg'} width={44} height={44} alt={'Profile-Pic'} />
 
-      <div className='flex flex-col'>
-        <span>Jordan Walker</span>
-        <span>@prism</span>
+      <div className='flex justify-between flex-grow items-center'>
+        <div className='flex flex-col'>
+          <span className='font-bold'>Jordan Walker</span>
+          <span className='text-sm text-[#536471]'>@prism</span>
+        </div>
+
+        <button className='bg-[#0f1419] text-white text-sm rounded-full w-[72px] h-[36px]'>
+          Follow
+        </button>
       </div>
 
-      <button className='bg-black text-white rounded-full w-[100px]'>
-        Follow
-      </button>
     </div>
   )
 }
